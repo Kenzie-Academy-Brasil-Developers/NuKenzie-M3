@@ -1,0 +1,25 @@
+.div--total {
+    border: 1px solid var(--grey-2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.div--total>p {
+    color: var(--color-primary);
+}
+
+.div--total>p,
+.div--total>div>span>strong {
+    font-weight: var(--fontWeight-700);
+    font-size: var(--size-16px);
+}
+
+.div--total>div>p {
+    color: var(--grey-5);
+    font-weight: var(--fontWeight-400);
+    font-size: var(--size-12px);
+}
+
+.gap-total {
+    gap: 6px;
+}
